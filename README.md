@@ -161,9 +161,9 @@ A análise exploratória da **distribuição de frames por classe** revelou uma 
 | Estatística | IA (Treino) | Real (Treino) | IA (Teste) | Real (Teste) |
 |---|:---:|:---:|:---:|:---:|
 | Mínimo    | 37  | 80    | 37  | 80    |
-| Mediana   | 49  | 148   | 49  | 148   |
-| 3º Quartil| 49  | 183   | 49  | 195   |
-| Máximo    | 161 | 1.620 | 161 | 1.620 |
+| Mediana   | 49  | 148   | 49  | 154,5 |
+| 1º Quartil| 49  | 113   | 49  | 114   |
+| Máximo    | 161 | 1.620 | 137 | 1.621 |
 
 Com 14 ou 15 frames e passo 4, o modelo precisa percorrer uma janela de **53 a 57 frames**. Como a maioria dos vídeos de IA tem apenas ~49 frames (mediana), eles recebem **frames vazios** no pré-processamento — algo que não ocorre com os vídeos reais (mínimo de 80 frames). O modelo aprendeu a usar a **presença de frames vazios como atalho** para classificar IA, e não o conteúdo visual propriamente dito.
 
@@ -202,10 +202,10 @@ Para confirmar a hipótese, foi aplicado um **limiar de ≥ 57 frames** por víd
 
 | Estatística | IA (Treino) | Real (Treino) | IA (Teste) | Real (Teste) |
 |---|:---:|:---:|:---:|:---:|
-| Mínimo    | 57  | 80    | 57  | 80    |
-| Mediana   | 81  | 148   | 81  | 148   |
-| 3º Quartil| 81  | 197   | 81  | 190   |
-| Máximo    | 161 | 1.620 | 161 | 1.620 |
+| Mínimo    | 81  | 80    | 81  | 80    |
+| Mediana   | 81  | 156   | 81  | 153   |
+| 1º Quartil| 81  | 115,5 | 81  | 116   |
+| Máximo    | 161 | 1.621 | 161 | 1.575 |
 
 ### Resultados com Amostra Filtrada
 
