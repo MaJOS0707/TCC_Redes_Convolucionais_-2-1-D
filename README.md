@@ -27,13 +27,6 @@
 
 Com a popularização de geradores de vídeo por IA — **Sora, Wan, EasyAnimate, AccVideo, RepVideo** — vídeos sintéticos circulam cada vez mais em contextos de desinformação política, fraude e manipulação de opinião. Estudos mostram que humanos têm grande dificuldade em identificar esses conteúdos. Este trabalho propõe o uso de **redes neurais convolucionais (2+1)D** para automatizar essa detecção.
 
-<table>
-<tr>
-<td align="center"><img src="imagens/IA_eleicoes.png" width="290"/><br/><sub>Vídeo falso em contexto eleitoral</sub></td>
-<td align="center"><img src="imagens/Metropolis_ia.png" width="290"/><br/><sub>Vídeo gerado por IA (Metropolis)</sub></td>
-</tr>
-</table>
-
 ---
 
 ## 🗄️ Base de Dados — AIGVDBench
