@@ -31,6 +31,8 @@ Com a popularização de geradores de vídeo por IA — **Sora, Wan, EasyAnimate
 
 ## 🗄️ Base de Dados — AIGVDBench
 
+🔗 [Acessar base de dados AIGVDBench](https://github.com/LongMa-2025/AIGVDBench)
+
 | Característica | Valor |
 |---|---|
 | Total de vídeos disponíveis | +440.000 |
